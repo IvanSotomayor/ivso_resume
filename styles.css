@@ -44,6 +44,7 @@
 }
 
 .navbar ul li::after{
+    margin: 200px;
     content: '';
     height: 3px;
     width: 0%;
@@ -112,4 +113,17 @@ button:hover span{
 
 button:hover{
     border: none;
+}
+
+.banner_content{
+    margin: 10px;
+    padding: auto;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background-color: #ffffff;
+}
+
+#profile p{
+    font-size: x-large;
 }
